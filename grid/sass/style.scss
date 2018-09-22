@@ -1,0 +1,24 @@
+body{
+	margin: 0px;
+
+}
+#slider{
+	width: 1200px;
+	margin: 0px auto;
+	display: grid;
+	height: 660px;
+	grid-template-columns: auto auto auto auto;
+	grid-auto-columns: auto;
+	grid-gap: 10px;
+	div{
+	background: green;
+	border:1px solid red;
+	&:nth-child(1){
+	grid-column-start: 1;
+	grid-column-end:3;
+	background: yellow;
+	     }
+   
+
+	 }
+}   
